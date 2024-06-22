@@ -1,0 +1,434 @@
+
+* {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #p1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    width: 800px;
+    height: 150px;
+    margin-bottom: 60px;
+  }
+  
+  #p2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  
+  #p3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    width: 800px;
+    height: 225px;
+    margin-top: 60px;
+  }
+  
+  #p4 {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    width: 800px;
+    height: 288px;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 28px;
+    line-height: 29.4px;
+    position: relative;
+    margin: 33.6px;
+    padding: 56px;
+    color: white;
+    margin-bottom: 1.2em;
+    background-color: rgb(177, 177, 177);
+    margin-left: 150px;
+  }
+  
+  #p5 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    width: 800px;
+    height: 225px;
+    margin-top: 40px;
+  }
+  
+  #p6 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    width: 800px;
+    height: 225px;
+    margin-top: 100px;
+  }
+  
+  #p7 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    width: 800px;
+    height: 225px;
+    margin-top: 40px;
+  }
+  
+  #p8 {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    width: 800px;
+    height: 376px;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 28px;
+    line-height: 29.4px;
+    position: relative;
+    margin: 33.6px;
+    padding: 56px;
+    color: white;
+    margin-bottom: 1.2em;
+    background-color: rgb(177, 177, 177);
+    margin-left: 150px;
+  }
+  
+  nav {
+  
+    width: 100%;
+    height: 225px;
+  }
+  
+  nav p {
+    font-size: 20px;
+    line-height: 1.5;
+    right: 170px;
+    top: 175px;
+  }
+  
+  #fotologo {
+    display: flex;
+    top: 15%;
+  }
+  
+  #foto3lineas {
+    margin-right: -200px;
+    left: 300px;
+    bottom: 50px;
+  }
+  
+  #inputBuscar {
+    float: right;
+    right: 350px;
+    bottom: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(235, 233, 233);
+  }
+  
+  span {
+    font-size: 1.4em;
+    top: 120px;
+    float: left;
+    left: 300px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  #linea-horizontal {
+    width: 50%;
+    border: none;
+    background-color: rgb(228, 227, 227);
+    padding: 2.5px;
+    float: left;
+    top: 150px;
+    left: -73px;
+  }
+  
+  section {
+   max-height: 3000px;
+   margin-left: 0px;
+   max-width: 1110px;
+  }
+  
+  .articulo1 {
+    height: 1000px;
+    margin-left: 0px;
+    max-width: 1110px;
+  }
+  
+  header {
+    width: 100%;
+    height: 120px;
+  }
+  
+  #boton1 {
+    background-color: red;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 40%;
+    top: -7px;
+    left: 3px;
+  }
+  
+  #boton2 {
+    position: absolute;
+    border-radius: 2px;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 3px 12px;
+    top: 175px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .contenedor2 {
+  height: 3900px;
+  width: 1180px;
+  margin-left: 300px;
+  text-align: left;
+  margin-right: 0;
+  }
+  
+  
+  h1 {
+    font-weight: bold;
+    height: 220px;
+    width: 1110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    bottom: 50px;
+    right: 0px;
+    margin-bottom: 0;
+    float: none;
+  }
+  
+  h2 {
+    height: 55px;
+    width: 1110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    top: -40px;
+  }
+  
+  #qpsPolicial {
+    top: 20px;
+    left: 150px;
+  }
+  
+  #textoPolicial {
+    font-weight: bold;
+    height: 55px;
+    width: 1110px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    top: -52px;
+    left: 240px;
+  
+  }
+  
+  .articulo2 {
+    height: 1000px;
+    margin-left: 0px;
+    max-width: 1110px;
+    margin-top: 40px;
+  }
+  
+  #listaRedes {
+    margin-left: 1075px;
+    bottom: 420px;
+    text-align: right;
+    position: fixed;
+    list-style-type: none;
+  }
+  
+  #listaRedes li {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  aside {
+    width: 370px;
+    height: 523px;
+    position: relative;
+    left: 40%;
+  }
+  
+  footer {
+    height: 356px;
+    width: 2183px;
+    margin-bottom: 90px;
+    font-size: 10px;
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    position: static;
+  }
+  
+  .contenedorFooter {
+    height: 356px;
+    width: 1600px;
+    background-color:rgb(221, 221, 221);
+  }
+  
+  #fotologo1 {
+    top: 12%; 
+    left: 3%;
+    float: left;
+    
+  }
+  
+  #listaFooter1 {
+    list-style-type: none;
+  }
+  
+  #fotoubicacion {
+    left: -8.7%;
+    margin-top: 7%;
+  }
+  
+  #fotowhatsapp {
+    left: 0.7%;
+    margin-top: 1%;
+  }
+  
+  #span1footer {
+    margin-left: -26.3%;
+  }
+  
+  #span2footer {
+    margin-top: -6.2%;
+    margin-left: -16.3%;
+  }
+  
+  #listaFooter2 {
+    list-style-type: none;
+  }
+  
+  footer h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: right;
+    right: 38%;
+    bottom: 135px;
+  }
+  
+  #span3footer {
+    position: relative;
+    display: block;
+    left: 735px;
+    top: -80px; 
+  }
+  
+  #span4footer {
+    position: relative;
+    display: block;
+    left: 635px;
+    top: -40px; 
+  }
+  
+  footer a {
+    position: relative;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    float: right;
+    left: -62%;
+    top: 20%;
+    margin-right: 10px;
+  }
+  
+  /* If the screen size is 600px wide or less, hide the element */
+  @media (max-width: 860px) {
+  
+    span {
+      left: 30%;
+      width: 860px;
+  
+    }
+    nav p {
+      left: 50%;
+    }
+  
+    h2 {
+      width: 860px;
+      left: 2%;
+    }
+    nav {
+      width: 860px;
+      margin-bottom: 50px;
+    }
+    main {
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start; 
+      max-width: 860px; 
+      margin: 0 auto; 
+      right: 33%;
+    }
+    body {
+      width: 860px;
+      margin: 5px;
+    }
+  
+    #fotologo {
+      display: none;
+    }
+  
+    input {
+      display: none;
+    }
+  
+    #foto3lineas{
+      display: none;
+    }
+  
+    article {
+      width: 600px;
+  
+    }
+  
+    section {
+      width: 600px;
+  
+    }
+    img {
+      width: 600px;
+      left: 15%;
+    }
+  
+    footer {
+     display: none;
+    }
+  
+    h1 {
+      width: 750px;
+      height: 300px;
+      left: 0%;
+      text-align: center;
+    }
+  
+    #qpsPolicial {
+      display: none;
+    }
+  
+    #textoPolicial {
+      display: none;
+    }
+  
+    .contenedor2 {
+      max-width: 860px;
+    }
+    #p4 {
+      right: 22%;
+    }
+    #p8 {
+      right: 22%;
+    }
+  }
