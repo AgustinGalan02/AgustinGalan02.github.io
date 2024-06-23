@@ -205,45 +205,55 @@ footer {
     align-items: center;
 }
 
+.hamburger-icon {
+    display: none;
+}
+
 
 
 
 @media (max-width: 767px) {
     header {
-        height: auto; 
-        flex-direction: column; 
+        height: auto;
+        flex-direction: column;
         align-items: center;
         padding: 10px;
     }
 
     .divHeader {
-        flex-direction: column; 
-        align-items: center; 
-        justify-content: center; 
+        display: none;
+
     }
 
-    .headerDiv1, .headerDiv3 {
-        width: 100%; 
-        justify-content: center; 
+    .headerDiv1,
+    .headerDiv3 {
+        display: none;
+
     }
 
     nav {
-        height: auto; 
-        flex-wrap: wrap;
-        justify-content: center; 
-        padding: 10px;
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
     }
 
     nav span {
-        margin: 5px; 
+        display: none;
     }
 
     .divMain {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
-    .mainDiv1, .mainDiv2, .mainDiv3 {
+    .mainDiv1,
+    .mainDiv2,
+    .mainDiv3 {
         width: 100%;
     }
 
@@ -260,7 +270,7 @@ footer {
     }
 
     section h2 {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .divAside > div {
@@ -274,21 +284,26 @@ footer {
     }
 
     footer {
-        height: auto; 
+        height: auto;
         padding: 10px;
     }
 
     .divFooter {
-        flex-direction: column; 
         align-items: center;
-        justify-content: center; 
+        justify-content: space-around;
     }
 
-    .divFooterHijo1, .divFooterHijo3 {
-        width: 100%; 
+    .divFooterHijo1,
+    .divFooterHijo3 {
+        width: 100%;
     }
 
     .divFooterHijo2 {
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
+    }
+
+    .divAside img {
+        max-width: 250px;
+        height: auto; 
     }
 }
