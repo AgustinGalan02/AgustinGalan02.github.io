@@ -1,42 +1,46 @@
-# Boggle Game
+# Portfolio 
+## Sobre Mí
 
-## Descripción del Proyecto
-
-Boggle_game es un juego de búsqueda de palabras para un solo jugador que se juega en un tablero de 4x4 con letras aleatorias. El jugador debe formar la mayor cantidad posible de palabras válidas seleccionando letras contiguas dentro de un límite de tiempo. Las palabras deben tener al menos 3 letras y las letras deben estar adyacentes horizontal, vertical o diagonalmente. Se otorgan puntos según la longitud de la palabra y se aplican penalizaciones por palabras inválidas o repetidas.
-
----
-
-## Funcionalidades
-
-- Tablero de 4x4 con letras asignadas aleatoriamente  
-- Validación de palabras mediante consulta en diccionario online  
-- Sistema de puntuación basado en la longitud de las palabras  
-- Temporizador con opciones de 1, 2 o 3 minutos  
-- Resalta las letras que pueden seleccionarse a continuación  
-- No permite reutilizar letras en la misma palabra.
-- Feedback al usuario mediante modales.
-- Listado en tiempo real de palabras encontradas  
-- Ranking persistente guardado en localStorage  
-- Modal de ranking con opción de ordenar por puntaje o fecha.  
+Soy un desarrollador en formación apasionado por la tecnología y el aprendizaje constante, especializado en la programación web. En este portfolio encontrarás una selección de mis proyectos personales y académicos que reflejan mis habilidades en desarrollo web y programación.
 
 ---
 
-## Tecnologías Utilizadas
+## Proyectos
 
-- HTML5 (marcado semántico y accesible)  
-- CSS3 (Flexbox para diseño y responsividad)  
-- JavaScript (sintaxis ES5, estructura modular, snake_case)  
+### [Boggle Game](https://github.com/AgustinGalan02/boggle-game)  
+Juego de búsqueda de palabras en un tablero 4x4 con letras aleatorias. Valida palabras con un diccionario online, cuenta puntos según longitud y penaliza errores. Tiene temporizador, ranking guardado localmente y diseño responsivo.
+
+### [Changuito Deals - E-commerce](https://github.com/AgustinGalan02/changuito-deals)  
+Plataforma e-commerce completa desarrollada en ASP.NET con catálogo, carrito, pago por PayPal y panel administrativo. Usa arquitectura MVC y diseño responsive.
+
+### [Calculadora de Teoría de Colas](https://github.com/AgustinGalan02/queue-theory-calculator)  
+Herramienta interactiva que analiza distintos modelos de teoría de colas con cálculos automáticos y visualización intuitiva.
+
+### [Rick y Morty - API REST](https://github.com/AgustinGalan02/API-Rest-RickAndMorty)  
+Una aplicación web interactiva que consume la API de Rick y Morty para mostrar información detallada de los personajes. Las características incluyen búsqueda de caracteres, filtros avanzados (estado, especie, tipo, género) y diseño responsive.
+
+### [PostgreCommerce - API](https://github.com/AgustinGalan02/PostgreCommerce-API)  
+Una aplicación web que simula la gestión básica de la tienda en línea, construida con Spring Boot centrándose en las API RESTful, la seguridad robusta y una interfaz de usuario simple pero funcional.
 
 ---
 
+## Contacto
 
-## Autor
+- GitHub: [@AgustinGalan02](https://github.com/AgustinGalan02)  
+- Email: agustingalan4@gmail.com
 
-- [@AgustinGalan02](https://www.github.com/AgustinGalan02)
+---
 
-## 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+## Tecnologías Destacadas
 
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+[![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)  
+[![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat&logo=aspdotnet&logoColor=white)](https://dotnet.microsoft.com/apps/aspnet)  
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)  
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
+
+---
