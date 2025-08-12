@@ -1,7 +1,7 @@
 # Portfolio 
 ## Sobre Mí
 
-Soy un desarrollador en formación apasionado por la tecnología y el aprendizaje constante, especializado en la programación web. En este portfolio encontrarás una selección de mis proyectos personales y académicos que reflejan mis habilidades en desarrollo web y programación.
+Soy un desarrollador en formación apasionado por la tecnología y el aprendizaje constante. En este portfolio encontrarás una selección de mis proyectos personales y académicos que reflejan mis habilidades en desarrollo web y programación.
 
 ---
 
