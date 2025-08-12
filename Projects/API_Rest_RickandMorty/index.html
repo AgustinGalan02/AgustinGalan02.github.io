@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP API REST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rick And Morty - API REST</h1>
+    </header>
+    <main>
+        <section id="character-list">
+        
+        </section>
+        <section id="filters">
+            <h2>Filtros</h2>
+            <form id="filter-form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="">Seleccionar un status</option>
+                    <option value="alive">Alive</option>
+                    <option value="dead">Dead</option>
+                    <option value="unknown">Unknown</option>
+                </select>
+                
+                <label for="species">Species:</label>
+                <input type="text" id="species" name="species">
+                
+                <label for="type">Type:</label>
+                <input type="text" id="type" name="type">
+                
+                <label for="gender">Genero:</label>
+                <select id="gender" name="gender">
+                    <option value="">Seleccionar un genero</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="genderless">Genderless</option>
+                    <option value="unknown">Unknown</option>
+                </select>
+                
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
