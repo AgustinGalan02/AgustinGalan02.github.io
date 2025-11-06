@@ -318,7 +318,7 @@ const quizData = {
         correct: 1,
         explanation: "Falso. RIP usa el algoritmo Bellman-Ford, no Dijkstra."
     },
-        {
+    {
         question: "¿Cuál es la función del Holddown Timer en RIP?",
         options: [
             "Impide aceptar nuevas rutas durante un tiempo tras detectar una caída",
@@ -328,7 +328,7 @@ const quizData = {
         ],
         correct: 0,
         explanation: "El Holddown Timer previene la aceptación de rutas nuevas inmediatamente después de detectar una caída."
-        },
+    },
     {
         question: "En OSPF, el router con la mayor prioridad es elegido como DR (Designated Router).",
         options: ["Verdadero", "Falso"],
@@ -586,6 +586,213 @@ const quizData = {
             explanation: "STARTTLS permite actualizar una conexión no cifrada a cifrada."
         }
     ],
+    "SSH y SSL/TLS": [
+    {
+        question: "¿Cuál es el objetivo principal de los protocolos SSH y SSL/TLS?",
+        options: [
+            "Aumentar la velocidad de transmisión de datos",
+            "Garantizar la seguridad y confidencialidad en las comunicaciones",
+            "Facilitar la instalación de software remoto",
+            "Permitir el acceso libre a los servidores"
+        ],
+        correct: 1,
+        explanation: "SSH y SSL/TLS garantizan la seguridad y confidencialidad en las comunicaciones."
+    },
+    {
+        question: "En el modelo OSI, ¿en qué capa trabaja principalmente SSH?",
+        options: [
+            "Capa de enlace de datos",
+            "Capa de transporte",
+            "Capa de aplicación",
+            "Capa de red"
+        ],
+        correct: 2,
+        explanation: "SSH trabaja principalmente en la capa de aplicación del modelo OSI."
+    },
+    {
+        question: "¿Qué reemplazó SSH al ser creado en 1995?",
+        options: [
+            "HTTPS",
+            "FTP",
+            "Telnet y rlogin",
+            "SMTP"
+        ],
+        correct: 2,
+        explanation: "SSH reemplazó a Telnet y rlogin, que transmitían datos sin cifrar."
+    },
+    {
+        question: "En una conexión SSH, el comando ssh usuario@192.168.1.10 sirve para:",
+        options: [
+            "Crear un túnel VPN automático",
+            "Ejecutar comandos locales cifrados",
+            "Conectarse de forma remota y segura a otro equipo",
+            "Instalar el protocolo SSH en un servidor"
+        ],
+        correct: 2,
+        explanation: "Este comando permite conectarse de forma remota y segura a otro equipo."
+    },
+    {
+        question: "¿Qué tipo de cifrado usa SSH para transmitir los datos una vez establecida la conexión?",
+        options: [
+            "Cifrado asimétrico exclusivamente",
+            "Cifrado simétrico con una clave de sesión",
+            "Sin cifrado, solo autenticación",
+            "Cifrado por compresión de datos"
+        ],
+        correct: 1,
+        explanation: "SSH usa cifrado simétrico con una clave de sesión para la transmisión de datos."
+    },
+    {
+        question: "En SSL/TLS, el 'certificado digital' sirve para:",
+        options: [
+            "Aumentar la velocidad del cifrado",
+            "Verificar la identidad del servidor o sitio web",
+            "Comprimir los datos antes del envío",
+            "Generar claves aleatorias de sesión"
+        ],
+        correct: 1,
+        explanation: "El certificado digital verifica la identidad del servidor o sitio web."
+    },
+    {
+        question: "¿Qué significa el 'candado' que aparece en un navegador web?",
+        options: [
+            "Que el sitio está usando una VPN",
+            "Que el sitio tiene conexión HTTPS con SSL/TLS activo",
+            "Que la página está en modo privado",
+            "Que el servidor está encriptado localmente"
+        ],
+        correct: 1,
+        explanation: "El candado indica que el sitio tiene conexión HTTPS con SSL/TLS activo."
+    },
+    {
+        question: "¿Cuál de las siguientes afirmaciones describe mejor la diferencia entre SSH y SSL/TLS?",
+        options: [
+            "SSH se usa en navegadores y SSL/TLS en servidores",
+            "SSH cifra el acceso remoto y SSL/TLS cifra la navegación web",
+            "Ambos protocolos funcionan exactamente igual",
+            "SSL/TLS reemplazó a SSH en versiones modernas"
+        ],
+        correct: 1,
+        explanation: "SSH se usa para acceso remoto seguro y SSL/TLS para cifrar la navegación web."
+    },
+    {
+        question: "¿Qué puerto usa por defecto el protocolo SSH?",
+        options: [
+            "22",
+            "25",
+            "80",
+            "443"
+        ],
+        correct: 0,
+        explanation: "SSH usa el puerto 22 por defecto."
+    },
+    {
+        question: "¿Cuál de los siguientes problemas puede ocurrir si no se usan SSH o SSL/TLS?",
+        options: [
+            "Conexiones más rápidas",
+            "Pérdida de paquetes",
+            "Interceptación o robo de datos (ataques MITM)",
+            "Duplicación de direcciones IP"
+        ],
+        correct: 2,
+        explanation: "Sin SSH o SSL/TLS, existe riesgo de interceptación o robo de datos mediante ataques MITM."
+    }
+],
+    "IGP, L2TP y FTP": [
+    {
+        question: "FTP transmite credenciales y datos en texto plano, por lo que es inseguro en redes públicas.",
+        options: ["Verdadero", "Falso"],
+        correct: 0,
+        explanation: "Verdadero. FTP transmite todo en texto plano, lo que lo hace inseguro en redes públicas."
+    },
+    {
+        question: "¿Para qué sirve principalmente FTP?",
+        options: [
+            "Enviar correos",
+            "Transferir archivos entre computadoras",
+            "Navegar páginas web",
+            "Encriptar discos"
+        ],
+        correct: 1,
+        explanation: "FTP sirve principalmente para transferir archivos entre computadoras."
+    },
+    {
+        question: "En FTP las contraseñas se envían cifradas por defecto.",
+        options: ["Verdadero", "Falso"],
+        correct: 1,
+        explanation: "Falso. FTP envía las contraseñas en texto plano, sin cifrado."
+    },
+    {
+        question: "¿Quién inicia la conexión en el modelo FTP cliente-servidor?",
+        options: [
+            "El servidor",
+            "El cliente"
+        ],
+        correct: 1,
+        explanation: "El cliente inicia la conexión en el modelo FTP cliente-servidor."
+    },
+    {
+        question: "¿Qué significa IGP?",
+        options: [
+            "Internet Gateway Protocol",
+            "Internal Gateway Process",
+            "Interior Gateway Protocol",
+            "Internet Global Protocol"
+        ],
+        correct: 2,
+        explanation: "IGP significa Interior Gateway Protocol."
+    },
+    {
+        question: "¿Cuál de los siguientes NO es un protocolo IGP?",
+        options: [
+            "OSPF",
+            "RIP",
+            "BGP",
+            "EIGRP"
+        ],
+        correct: 2,
+        explanation: "BGP no es un protocolo IGP, es un protocolo EGP (Exterior Gateway Protocol)."
+    },
+    {
+        question: "¿Qué función cumple un IGP?",
+        options: [
+            "Crear túneles VPN entre redes",
+            "Cifrar los datos enviados por Internet",
+            "Determinar la mejor ruta dentro de una red",
+            "Controlar el acceso de usuarios externos"
+        ],
+        correct: 2,
+        explanation: "Los IGP determinan la mejor ruta dentro de una red o sistema autónomo."
+    },
+    {
+        question: "¿Cuál es la principal función del protocolo L2TP?",
+        options: [
+            "Cifrar los datos transmitidos entre cliente y servidor",
+            "Crear túneles virtuales para establecer redes privadas sobre Internet",
+            "Determinar la mejor ruta de transmisión en una red interna",
+            "Administrar el acceso de usuarios externos a una red"
+        ],
+        correct: 1,
+        explanation: "L2TP crea túneles virtuales para establecer redes privadas sobre Internet."
+    },
+    {
+        question: "¿Cuál de las siguientes afirmaciones sobre L2TP es correcta?",
+        options: [
+            "L2TP cifra los datos de manera nativa",
+            "L2TP no puede combinarse con otros protocolos",
+            "L2TP necesita de IPsec para garantizar la seguridad y el cifrado",
+            "L2TP pertenece a la capa de aplicación del modelo OSI"
+        ],
+        correct: 2,
+        explanation: "L2TP necesita de IPsec para garantizar la seguridad y el cifrado de los datos."
+    },
+    {
+        question: "El protocolo L2TP, por sí solo, cifra los datos transmitidos y ofrece protección contra ataques.",
+        options: ["Verdadero", "Falso"],
+        correct: 1,
+        explanation: "Falso. L2TP no cifra datos por sí solo, necesita combinarse con IPsec para seguridad."
+    }
+    ],
     "VLANs y VPN": [
         {
             question: "¿Cuál es la principal ventaja de implementar VLANs en una red LAN?",
@@ -698,6 +905,7 @@ const quizData = {
             explanation: "Que si alguien intercepta los datos, no pueda leerlos."
         }
     ]
+    
 };
 
 let state = {
@@ -731,8 +939,8 @@ function renderTopicSelection() {
                 <svg class="icon" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"></path>
                 </svg>
-                <h1>TEC II</h1>
-                <p class="subtitle">Seleccionar Tema</p>
+                <h1>Quiz de Tecnología de las Comunicaciones</h1>
+                <p class="subtitle">Selecciona un tema para comenzar</p>
             </div>
             
             <div class="topics-grid">
@@ -865,10 +1073,8 @@ function selectAllTopics() {
         });
     });
     
-    // Opcional: Mezclar las preguntas aleatoriamente
-    allQuestions.sort(() => Math.random() - 0.5);
+     allQuestions.sort(() => Math.random() - 0.5);
     
-    // Crear un tema temporal con todas las preguntas
     quizData['_all_topics'] = allQuestions;
     
     state.selectedTopic = '_all_topics';
@@ -928,8 +1134,9 @@ function restartQuiz() {
 }
 
 function backToTopics() {
+
     if (quizData.hasOwnProperty('_all_topics')) {
-        delete quizData['_all_topics'];
+        delete quizData['_all_topics']
     }
     state.selectedTopic = null;
     state.currentQuestion = 0;
